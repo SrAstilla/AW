@@ -1,0 +1,61 @@
+td {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    border-color: black;
+    border: solid black 5px;
+    
+}
+.centro {
+    margin: auto;
+}
+.arribaizq {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+.arribacent {
+    border-top: 0px;
+    border-bottom: 0px;
+}
+.arribader {
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+}
+.interiorizq {
+    border-left: 0px;
+    border-right: 0px;
+}
+.interiorder {
+    border-left: 0px;
+    border-right: 0px;
+}
+.abajoizq {
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+}
+.abajocent {
+    border-top: 0px;
+    border-bottom: 0px;
+}
+.abajoder {
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0.3px;
+}
+h1 {
+    text-align: center;
+}
+body {
+    background-color: lavender;
+}
