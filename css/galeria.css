@@ -1,0 +1,15 @@
+img {
+    width: 30%; height: 30%;
+}
+div {
+    margin: 7px 15px;
+    margin-left: 50px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'raleway',sans-serif;
+}
+body {
+    background-color: lavender;
+}
