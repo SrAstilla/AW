@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/formulario.css">
+</head>
+
+<body>
+    <form action="9Formulario.html">
+        <label for="nombre">nombre:</label>
+        <input type="text" id="nombre" required placeholder="introduce tu nombre" size="15" maxlength="15">
+        <label for="apellido">apellido:</label>
+        <input type="text" id="apellido" required placeholder="introduce tu apellido" size="40" maxlength="40">
+        <br>
+        <label for="Hombre">Hombre</label>
+        <input id="Hombre" type="radio" name="hm" value="h">
+        <label for="Mujer">Mujer</label>
+        <input id="Mujer" type="radio" name="hm" value="m">
+        <label for="Otro">Otro</label>
+        <input id="Otro" type="radio" name="hm" value="m">
+        <select>
+            <option>-</option>
+            <option>Helicoptero apache con cocina</option>
+            <option>Youtuber de genero binario</option>
+            <option>E-boy</option>
+        </select>
+        <br>
+        <label for="email">email</label>
+        <input type="email" id="email" required placeholder="Introduce tu Email" size="40">
+        <label for="password">contraseña</label>
+        <input type="password" id="password" required placeholder="Introduce una contraseña" size="30" maxlength="20">
+        <br>
+        <label for="fecha">Fecha de nasimiento</label>
+        <input type="date" id="fecha" required>
+        <br>
+        <label for="tyc">Acepto terminos y condiciones</label>
+        <input type="checkbox" required id="tyc">
+        <br>
+        <input type="submit" value="Fin">
+
+    </form>
+</body>
+
+</html>
