@@ -3,9 +3,11 @@
     padding-bottom: 30px;
     
 }
-
-.divider
-{
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+.divider {
 	position: relative;
     margin-top: 40px;
     height: 1px;
@@ -29,8 +31,9 @@
     border: 8px solid blue;
 }
 .barra {
+    padding-bottom: 15%;
     list-style-type: none;
-    margin-right: 7p%;
+    margin-right: 7%;
 
 }
 .menu {
@@ -41,8 +44,31 @@
     background-color: blue;
 }
 .enlaceboton {
+    text-decoration: none;
     display: block;
     color: black;
     text-align: center;
     padding: 16px 16px;
+}
+.data {
+    color: #029300;
+    padding-left: 1%;
+    text-transform: uppercase;
+    
+}
+.divider {
+    margin-top: 40px;
+    height: 1px;
+    position: relative;
+}
+.borde {
+    border-left: 4px solid blue;
+    padding-left: 1%;
+    margin-left: 1%;
+}
+.texto {
+    padding-left: 1%;
+}
+.segundotit {
+    padding-left: 1%;
 }
