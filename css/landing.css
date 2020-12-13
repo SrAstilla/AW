@@ -42,9 +42,7 @@ div p{
 .espacio {
     flex-basis: 500px;
 }
-.subtitulo {
-    
-}
+
 .piedra {
     background: url('../img/piedra.png');
 }
