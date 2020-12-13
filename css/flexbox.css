@@ -22,3 +22,6 @@ nav div:hover{
     color: black;
     transition: 0.1s;
 }
+i {
+    text-align: center;
+}
